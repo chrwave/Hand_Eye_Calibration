@@ -1,0 +1,4 @@
+HOST_IP = '192.38.66.254'
+HOME_POS = [-0.30, 0.2, 0.2]
+HOME_ANGLE = [3.14159265, 0,0]
+USB_PORT = '/dev/ttyUSB0'
