@@ -28,13 +28,13 @@ os.chdir(directory)
 
 ####################################################
 #Andreas & Christian Library
-sys.path.append(directory+'\CameraLib')
+sys.path.append(directory+'\Library\CameraLib')
 import camera2robotcalib as cam
 import DenavitHartenberg
 ####################################################
 
-sys.path.append(directory+'\config')
-sys.path.append(directory+'\modules_AJT_CHR')
+sys.path.append(directory+'\Library\config')
+sys.path.append(directory+'\Library\modules_AJT_CHR')
 
 import robot
 import robotconfig as rcfg
