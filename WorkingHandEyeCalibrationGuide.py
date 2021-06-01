@@ -10,7 +10,6 @@ import socket
 import time
 import numpy as np
 import sys
-import pandas as pd
 import cv2
 import os
 from datetime import datetime
