@@ -9,3 +9,9 @@ The folder "ExamplePictures" features 10 images taken with a camera mounted on t
 # Using the Transformation
 The end-effector to camera transformation obtained with the hand-eye calibration, describes the rotation and translation of the camera relative to the end-effector. As an example of application, a image analysis script has been included in the repository. The script will filter red circles using BLOB-detection from a camera feed and return the center coordinate (point between the two circles). The hand-eye transformation is then applied to convert the coordinate to a corresponding gripper coordinate. A vector is defined between the two circles, such that the rotation of the end effector always will be parallel to the red circles.\
 The necessary scripts are found in the folder "ApplicationExample". The requires packages are similar to those from the hand-eye calibration. Notice that the user must insert the hand-eye transformation matrix into the script.
+
+# Setting up the Config
+In the Libary there is a config file where the ip-address have to match the UR's ip-address. NB! Your own ip-address have to be within the same scope as the UR's ip-address
+
+# Camera Intrinsics
+In the Libary there is a file called camera2robotcalib.py, here the camera intrinsics can be edited to fit the camera used (Which should be found by doing the camera calibration). There is also a function that allows you to set the parameters which shouldnt be used yet, since there havent been added a function to read the camera intrinsic from the function yet. 
