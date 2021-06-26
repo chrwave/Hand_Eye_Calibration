@@ -2,7 +2,7 @@
 Included in this repository is a guide for hand-eye calibration (eye in hand) using Python and OpenCV.\
 The guide uses the "DTU UR Equipment Functions" by Bisssen and pandaman35 (https://github.com/Bisssen/DTU_UR_equipment_functions). However, the necessary functions has already been included in this repository.
 
-The guide "Guide_To_HandEye_Calibration.pdf" describes the process of using the Python script to obtain the transformation matrix from end effector to camera as well as the camera matrix and distortion coefficients.
+The guide "Guide_To_HandEye_Calibration.pdf" describes the process of using the Python script to obtain the transformation matrix from end-effector to camera as well as the camera matrix and distortion coefficients.
 
 The folder "ExamplePictures" features 10 images taken with a camera mounted on the end-effector of an UR5. Notice that the end-effector is rotated, placed at different heights etc.
 
@@ -14,4 +14,4 @@ The necessary scripts are found in the folder "ApplicationExample". The requires
 In the Libary there is a config file where the ip-address have to match the UR's ip-address. NB! Your own ip-address have to be within the same scope as the UR's ip-address
 
 # Camera Intrinsics
-In the Libary there is a file called camera2robotcalib.py, here the camera intrinsics can be edited to fit the camera used (Which should be found by doing the camera calibration). There is also a function that allows you to set the parameters which shouldnt be used yet, since there havent been added a function to read the camera intrinsic from the function yet. 
+In the "Libary" there is a file called "camera2robotcalib.py", in here the camera intrinsics can be edited to fit the camera used (which should be found by performing camera calibration). There is also a function that allows you to set the parameters which shouldnt be used yet, since there havent been added a function to read the camera intrinsic from the function yet.
